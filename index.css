@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: "roboto" , sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    top: 0;
+    position: absolute;
+}
+.navbar-container{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding: 0 50px;
+    height: 100%;
+    color: white;
+    font-family: "Sen", sans-serif;
+}
+.logo-container{
+flex : 1;
+}
+.logo{
+border-radius: 5px;
+color: green;
+height: 50px ;
+width: 100%;
+}
+.menu-container{
+    flex :6;
+border-radius: 5px;
+
+}
+.menu_list{
+    display: flex;
+    list-style: none;
+}
+.menulist_item{
+margin-right: 30px;
+}
+.menulist_item.active{
+    font-weight: bold;
+}
+.profile-container{
+flex :2;
+display: flex;
+align-items: center;
+justify-content: end;
+}
+.profile_text_container{
+    margin: 0 20px;
+}
+.Profile_picture{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.toggle{
+    background-color: white;
+    width: 40px;
+    height: 20px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+.toggle_icon{
+    color: darkblue;
+}
+.toggle_ball{
+    width: 18px;
+    height: 18px;
+    background-color: black;
+    position: absolute;
+    right: 1px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.sidebar{
+    width: 50px ;
+    height: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+}
+.left_menu_icon{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 80px;
+
+}
+
+
