@@ -100,4 +100,29 @@ justify-content: end;
 
 }
 
-
+.container{
+    background-color: #151515;
+    color: white;
+    height: calc(100vh - 50px);
+    
+}
+.content_container{
+    margin-left: 50px;
+    
+}
+.feature_content{
+    height: 50vh;
+}
+.new_release{
+height: 200px;
+border-radius: 20px;
+border: thin solid white;
+}
+.new_release_button{
+        color:rgb(139, 118, 118);
+        background-color: aqua;
+        border: none;
+        border-radius: 5px;
+        display: flex;
+        margin-left: 45px;  
+        margin-top:10px; }
